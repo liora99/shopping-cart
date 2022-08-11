@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.left{
+  display:flex;
+  justify-content:space-between;
+  flex-direction: row;
+
+}
+
+header , aside , .product {
+  background-color: #e0e0e0;
+  border-radius: 0.5rem;
+}
+
+
+a{
+  text-decoration: none;
+  /* on veut pas que le link soit souligné*/
+}
+
+.AllItems{
+  font-size: 30px;
+}
+
+.black{
+  color: 'black';
+}
